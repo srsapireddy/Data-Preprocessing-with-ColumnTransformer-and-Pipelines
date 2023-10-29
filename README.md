@@ -2,7 +2,7 @@
 Sklearn’s Pipelines with ColumnTransformer is an easy way to apply transformation rules in a standard manner, creating a more organized and clean code. </br>
 
 ## ColumnTransformer
-What a ColumnTransformer allows is to apply a Sklearn’s Transformer only in a group of columns.</br>
+What a ColumnTransformer allows is to apply a Sklearn’s Transformer only in a group of columns.</br></br>
 ![image](https://github.com/srsapireddy/Data-Preprocessing-with-ColumnTransformer-and-Pipelines/assets/32967087/613ff2d2-1001-4db3-8df7-0b30dd4612da)</br></br>
 
 The ColumnTransformer object receives a list of tuples composed of the transformer name (this is your choice), the transformer itself, and the columns where to apply the transformation. The argument remainder specifies what needs to be done with all other columns.</br></br>
